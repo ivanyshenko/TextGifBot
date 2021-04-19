@@ -1,0 +1,5 @@
+FROM java:11
+WORKDIR /
+ADD ./build/libs/TextGifBot-1.0-SNAPSHOT.jar TextGifBot-1.0-SNAPSHOT.jar
+EXPOSE 8080
+CMD java -jar TextGifBot-1.0-SNAPSHOT.jar
